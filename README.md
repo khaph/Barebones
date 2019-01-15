@@ -35,11 +35,8 @@ while N not 0 do;
   decr N;
 end;
 
-#If <> else in Barebones
-# If (A != 0)
-# S1; 
-#else 
-# S2;
+#Branch in Barebones
+#if A != 0 then S1; else S2;
 init A = 32;
 clear kq;
 clear invert;
